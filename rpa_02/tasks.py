@@ -9,6 +9,7 @@ def robot_spare_bin_python():
     browser.configure(
         slowmo=100,
         headless=False,
+        screenshot="only-on-failure",
     )
     open_the_intranet_website()
     log_in()
